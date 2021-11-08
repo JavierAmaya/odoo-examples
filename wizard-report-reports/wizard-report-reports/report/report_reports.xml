@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="action_commission_report_xls"
+            model="banks.debit"
+            string="Deposits XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.commission_report_xls.xlsx"
+            file="Comisiones"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_medical_fees_xls"
+            model="acs.hms.commission"
+            string="Medical Fees XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.medical_fees_xls.xlsx"
+            file="Honorarios Medicos"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_unbilled_charges_xls"
+            model="account.invoice.line"
+            string="Unbilled Charges XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.unbilled_charges_xls.xlsx"
+            file="Cargos No Facturados"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_general_consultations_xls"
+            model="hms.appointment"
+            string="General Consultations XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.general_consultations_xls.xlsx"
+            file="General de Consultas"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_advance_not_applied_xls"
+            model="account.voucher"
+            string="Advance not Applied XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.advance_not_applied_xls.xlsx"
+            file="Anticipos de Clientes no Aplicados"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_detailed_account_insurer_xls"
+            model="account.invoice"
+            string="Detailed Account Insurer XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.detailed_account_insurers_xls.xlsx"
+            file="Estado de Cuenta Aseguradora Detallado"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_summary_account_insurer_xls"
+            model="account.invoice"
+            string="Summary Account Insurer XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.summary_account_insurers_xls.xlsx"
+            file="Estado de Cuenta Aseguradora Resumido"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_customer_account_statement_xls"
+            model="account.invoice"
+            string="Customer Account Status XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.cust_acc_statement_xls.xlsx"
+            file="Estado de Cuenta Clientes"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_cxc_insurance_xls"
+            model="account.invoice"
+            string="CxC Insurance XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.cxc_insurance_xls.xlsx"
+            file="CxC Aseguradora"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_det_med_ma_pro_xls"
+            model="hms.surgery"
+            string="Detailed Medical Managemente Procedures XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.det_med_ma_pro_xls.xlsx"
+            file="Precedimientos y Manejo Medico Detallado"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_summ_med_ma_pro_xls"
+            model="hms.surgery"
+            string="Summary Medical Managemente Procedures XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.summ_med_ma_pro_xls.xlsx"
+            file="Precedimientos y Manejo Medico Resumido"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_clinic_rental_xls"
+            model="acs.hms.commission"
+            string="Clinic Rental XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.clinic_rental_xls.xlsx"
+            file="Alquiler de Clinicas"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_age_of_detailed_xls"
+            model="account.invoice"
+            string="Age of Detailed XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.age_of_detailed_xls.xlsx"
+            file="Antiguedad de Saldos Aseguradora Detallado"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_age_of_summary_xls"
+            model="account.invoice"
+            string="Age of summary XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.age_of_summary_xls.xlsx"
+            file="Antiguedad de Saldos Aseguradora Resumido"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_sale_report_xls"
+            model="account.invoice"
+            string="Sale Report XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.sale_report_xls.xlsx"
+            file="Report de Ventas"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_pre_req_sur_xls"
+            model="account.invoice"
+            string="Prescriptions, Requisitions and Surgeries XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.pre_req_sur_xls.xlsx"
+            file="Recetas, Requisiciones y Cirugias"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_laboratory_report_xls"
+            model="acs.laboratory.request"
+            string="Reporte de Laboratorio XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.laboratory_report_xls.xlsx"
+            file="Reporte de Laboratorio"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_account_control_xls"
+            model="account.invoice"
+            string="Account Control XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.account_control_xls.xlsx"
+            file="Control de Cuentas"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_use_of_rooms_xls"
+            model="consume.product"
+            string="Use of Rooms XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.account_use_of_rooms_xls.xlsx"
+            file="Usos de Salas"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_surgeries_report_xls"
+            model="hms.surgery"
+            string="Surgeries XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.surgeries_report_xls.xlsx"
+            file="Cirugías"
+            attachment_use="False"
+            menu="False"/>
+
+        <report
+            id="action_invoice_audif_report_xls"
+            model="account.invoice"
+            string="Invoice Audif XLS"
+            report_type="xlsx"
+            name="gn_commission_seat.audit_report_xls.xlsx"
+            file="Auditoría Facturación"
+            attachment_use="False"
+            menu="False"/>
+    </data>
+</odoo>
